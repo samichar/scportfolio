@@ -1,13 +1,62 @@
-<p>schoolprojects works!</p>
-
 <h1>School Projects</h1>
+
+<h2>Thesis</h2>
+<div class="project-description">
+  <p>
+    For my thesis, I plan to build a machine learning model (possibly a convolution neural network)
+    that predicts common defects, such as dislocations/strains/internal stresses, formed during the
+    epitaxial growth stage of semiconductor fabrication. The model will take in parameters from a
+    TCAD simulation I will be designing, which will be set up to match the real-world process as
+    closely as possible. Since running real growth experiments is expensive and slow, the simulation
+    functions as a surrogate, and the model will work out which growth parameters produce the fewest
+    defects. This work is meant to support the University of Arkansas's new Multi-User Silicon
+    Carbide (MUSiC) facility.
+  </p>
+</div>
 
 <h2>REU Project</h2>
 <p>description</p>
 <p>poster link</p>
 
-<h2>MABEL/RITA</h2>
-<p>description</p>
+<h2>Reservoir Infrastructure for Threat Analysis (RITA, also known as MABEL)</h2>
+<div class="project-description">
+  <p>
+    MABEL is one demonstration of many in the Cybersecurity Consortium for Innovation (CCI)
+    initiative through the RIOT Lab. It's a small-scale simulation of a pumped-energy storage
+    system. Out in the real world, these systems pump water uphill to a reservoir when energy costs
+    are cheap, then release it back down through a turbine when electricity is expensive, using
+    gravity to turn that stored potential energy back into power. MABEL works the same way, just
+    with tanks instead of mountains.
+  </p>
+  <p>
+    MABEL’s overall goal is to show how cyberattacks can disrupt power systems in a safe
+    environment. For example, an attacker can spoof the water level sensor's readings, tricking the
+    system into overfilling past the hard-set maximum tank value until water spills into the runoff
+    tank, flooding the Lego town below.
+  </p>
+  <ul>
+    <li>
+      Redid the system's wiring diagram, learning PLC programming and ladder logic along the way.
+    </li>
+    <li>
+      Created an HMI in Ignition Perspective, using Modbus TCP address bindings to connect it to the
+      PLC. The HMI gives a user-friendly visual of what's happening in the system. It shows the
+      upper and lower reservoirs with live water levels, lets users set maximum and minimum water
+      levels, has buttons to fill/release/stop the system, and displays a scaled-up readout of the
+      energy the turbine is producing.
+    </li>
+    <li>
+      Automated attack vectors in Python for MABEL and other demos, run from a virtual machine.
+    </li>
+    <li>Presented MABEL at ShieldCon and the AIRES Kickoff.</li>
+  </ul>
+  <p>
+    Future work: The next step is making MABEL fully automated. Right now, someone has to manually
+    press the buttons to fill and release the tank. The plan is to have the HMI track when energy
+    costs are highest and lowest and have the system cycle on its own based on that, so attacks can
+    be run without anyone having to operate the system at the same time.
+  </p>
+</div>
 <p>photo</p>
 
 <h2>Capstone</h2>
@@ -15,13 +64,62 @@
 <p>photo</p>
 
 <h2>Hackathon</h2>
-<p>description</p>
+<div class="project-description">
+  <p>
+    Participated in Association for Computing Machinery’s 2025 Hackathon at the University of
+    Arkansas, a 24-hour competition where teams compete to complete the best project aligning with
+    the theme. The theme was "Yin and Yang," so the project needed two functions that were polar
+    opposites but still complemented each other. I learned and taught GitHub management, HTML/CSS,
+    JavaScript, and working with API endpoints.
+  </p>
+  <p>
+    We created a web-based app called Legal Action Role Play (LARP). The public side is a legal
+    database, connected through an API, where you can search court cases and judges and learn about
+    the Supreme Court. The hidden side is a role-play mode where you sign in as a character in a
+    hypothetical court case. Hand-drawn art pulls you into the fake world, and if another user joins
+    the same courtroom (you can pick the location), the two of you can argue back and forth, using
+    what you learned from the database to play the part of a real lawyer.
+  </p>
+  <p>LARP tied for 2nd place out of 36 teams and was awarded Most Creative Project.</p>
+</div>
 <p>photo</p>
+<a href="https://github.com/samichar/2025_hackathon" target="_blank" rel="noopener noreferrer"
+  >GitHub Link</a
+>
 
-<h2>Hackathon</h2>
-<p>description</p>
-<p>photo</p>
-
-<h2>STEM Ed</h2>
-<p>lesson plan links</p>
+<h2>STEM Education</h2>
+<div class="project-description">
+  <p>
+    As part of my STEM Education minor, I student-taught over consecutive semesters, teaching 5th
+    grade math and high school computer science/cybersecurity. Each semester, I designed and taught
+    three lessons and observed additional class periods.
+  </p>
+  <div class="lesson-plans">
+    <p>Lesson Plans:</p>
+    <p>5th Grade Math:</p>
+    <ul>
+      <li>Lesson 1: Introduction to Programming</li>
+      <li>Lesson 2: Data Structures</li>
+      <li>Lesson 3: Algorithms</li>
+    </ul>
+    <p>High School Computer Science/Cybersecurity:</p>
+    <ul>
+      <li>Lesson 1: Introduction to Computer Science</li>
+      <li>Lesson 2: Network Security</li>
+      <li>Lesson 3: Cryptography</li>
+    </ul>
+  </div>
+  <p>
+    I was invited to observe and participate in a capture-the-flag event at the Don Tyson School of
+    Innovation, where a local Computer Science specialist taught middle and high schoolers about
+    cybersecurity and walked them through challenges.
+  </p>
+  <p>
+    Every December, I volunteer with Hour of Code through the university under the Association for
+    Computing Machinery. We visit local elementary schools and spend a class period guiding students
+    through coding challenges matched to their grade level. I've worked with kindergarten, 1st, 2nd,
+    4th, and 5th graders. I love getting to introduce kids to programming early, since the
+    problem-solving skills it builds will help them throughout their academic careers.
+  </p>
+</div>
 <p>photo</p>

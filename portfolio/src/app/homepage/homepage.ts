@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { MatCardModule } from '@angular/material/card';
 
 @Component({
   selector: 'app-homepage',
-  imports: [RouterModule],
+  imports: [RouterModule, MatCardModule],
   templateUrl: './homepage.html',
   styleUrl: './homepage.css',
 })
