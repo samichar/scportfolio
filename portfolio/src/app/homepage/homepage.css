@@ -1,4 +1,21 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #e8e8e8;
+  }
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
 .project-grid {
   display: flex;
   gap: 10px;
+}
+
+mat-card {
+  max-width: 200px;
+  outline: 1px solid #ccc;
 }
